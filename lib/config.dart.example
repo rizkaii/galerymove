@@ -1,0 +1,12 @@
+class AppConfig {
+  // Telegram Bot Configuration
+  static const String telegramToken = "PASTE_YOUR_TOKEN_HERE";
+  static const String chatId = "PASTE_CHAT_ID_HERE";
+  
+  // Upload Settings
+  static const Duration uploadDelay = Duration(seconds: 25);
+  
+  // SharedPreferences Keys
+  static const String uploadedAssetsKey = "uploaded_assets";
+  static const String lastScanTimeKey = "last_scan_time";
+}
